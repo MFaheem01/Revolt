@@ -1,0 +1,12 @@
+/* Poori website par apply karne ke liye */
+body {
+    font-family: 'Clash Grotesk', sans-serif;
+}
+
+.swiper-wrapper {
+    transition-timing-function: linear !important;
+}
+
+.mySwiperCard .swiper-wrapper {
+    transition-timing-function: ease-in-out !important;
+}
