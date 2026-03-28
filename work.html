@@ -759,27 +759,7 @@
     <!-- footer end -->
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js"></script>
 </body>
-<script>
-    
-    var swiper = new Swiper(".mySwiperCard", {
-        loop: true,
-        grabCursor: true,
-        // Slide change hone ki speed (1 second transition)
-        speed: 1000,
-        autoplay: {
-            delay: 2000, // 2 second ka intezar
-            disableOnInteraction: false,
-        },
-        breakpoints: {
-            // Mobile: 1 card
-            0: { slidesPerView: 1, spaceBetween: 10 },
-            // Tablet: 2 cards
-            640: { slidesPerView: 2, spaceBetween: 20 },
-            // Desktop: 3 cards
-            1024: { slidesPerView: 3, spaceBetween: 30 },
-        },
-    });
-</script>
 </html>
